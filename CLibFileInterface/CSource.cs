@@ -8,7 +8,7 @@ namespace CLibFileInterface
 {
     public class CSource
     {
-        private bool l_newFile = false;
+        private bool l_newFile = true;
         public bool HasNewFile(CFile file)
         {
             return l_newFile;
