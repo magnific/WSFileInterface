@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace CLibFileInterface
 {
-    class CTarget
+    class CFileMonitoring
     {
-
-
     }
 }
