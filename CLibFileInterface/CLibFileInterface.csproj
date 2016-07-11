@@ -44,6 +44,7 @@
     <Compile Include="CFileReader.cs" />
     <Compile Include="CFileWriter.cs" />
     <Compile Include="CFSynchronize.cs" />
+    <Compile Include="CSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
