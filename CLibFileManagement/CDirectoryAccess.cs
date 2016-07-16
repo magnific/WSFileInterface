@@ -7,7 +7,7 @@ using System.IO;
 
 namespace CLibFileManagement
 {
-    class CDirectoryAccess : CFileDataAccess
+    class CDirectoryAccess : CBaseFile
     {
 
         private string l_filename = "test.txt";

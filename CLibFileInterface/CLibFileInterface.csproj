@@ -40,18 +40,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CFileMonitoring.cs" />
-    <Compile Include="CFileReader.cs" />
-    <Compile Include="CFileWriter.cs" />
+    <Compile Include="CActionClass.cs" />
+    <Compile Include="File Base\CBaseFile.cs" />
+    <Compile Include="CCalculating.cs" />
     <Compile Include="CFSynchronize.cs" />
+    <Compile Include="Actions\CParsing.cs" />
+    <Compile Include="Actions\CReading.cs" />
     <Compile Include="CSettings.cs" />
+    <Compile Include="Actions\CWatching.cs" />
+    <Compile Include="Actions\CWriting.cs" />
+    <Compile Include="File Base\CDirectoryAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CLibFileManagement\CLibFileManagement.csproj">
-      <Project>{5e5d69e8-d73f-4dae-bbfd-f6ff8066083a}</Project>
-      <Name>CLibFileManagement</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CLibOperLog\CLibOperLog\CLibOperLog.csproj">
       <Project>{faedfca2-22e9-4ed4-bb2d-bf92b8621c38}</Project>
       <Name>CLibOperLog</Name>

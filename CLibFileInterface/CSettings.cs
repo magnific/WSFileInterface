@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CLibFileInterface
 {
-    class CSettings
+    public class CSettings
     {
     }
 }

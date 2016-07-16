@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CLibFileInterface
 {
-    class CFileWriter
+    class CParsing : CActionClass
     {
+        public override void ProcessRequest(CBaseFile file)
+        {
+            l_NextAction.ProcessRequest(file);
+        }   
     }
 }

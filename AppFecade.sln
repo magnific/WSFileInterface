@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLibFileInterface", "CLibFi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLibOperLog", "CLibOperLog\CLibOperLog\CLibOperLog.csproj", "{FAEDFCA2-22E9-4ED4-BB2D-BF92B8621C38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLibFileManagement", "CLibFileManagement\CLibFileManagement.csproj", "{5E5D69E8-D73F-4DAE-BBFD-F6FF8066083A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{FAEDFCA2-22E9-4ED4-BB2D-BF92B8621C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAEDFCA2-22E9-4ED4-BB2D-BF92B8621C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAEDFCA2-22E9-4ED4-BB2D-BF92B8621C38}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5E5D69E8-D73F-4DAE-BBFD-F6FF8066083A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E5D69E8-D73F-4DAE-BBFD-F6FF8066083A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E5D69E8-D73F-4DAE-BBFD-F6FF8066083A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E5D69E8-D73F-4DAE-BBFD-F6FF8066083A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

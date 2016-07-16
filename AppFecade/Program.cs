@@ -15,6 +15,9 @@ namespace AppFecade
             CHandLog l_log = new CHandLog();
             CFSynchronize l_Synch = new CFSynchronize();
             l_Synch.Synchonize(l_log);
+            // waiting
+            Console.ReadKey();
+            l_log.Flush();
         }
     }
 }
