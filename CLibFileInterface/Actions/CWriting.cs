@@ -10,7 +10,18 @@ namespace CLibFileInterface
     {
         public override void ProcessRequest(CBaseFile file)
         {
-            l_NextAction.ProcessRequest(file);
+            try
+            {
+                Log.Logger.Add_InfoLine(string.Format("Writing file {0}", file.FileName));
+                file.Status = _Status_.writing;
+                l_NextAction.ProcessRequest(file);
+            }
+            catch (Exception e)
+            {
+                Log.Logger.AddErrorLine(string.Format("Writing file {0} with error", file.FileName), e);
+            }
+            
         }
+        
     }
 }

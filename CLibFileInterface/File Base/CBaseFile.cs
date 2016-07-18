@@ -10,9 +10,9 @@ namespace CLibFileInterface
     public enum _Status_ {undefined, error, reading, parsing, writing};
     abstract class CBaseFile
     {
-        protected string FileName { set; get; }
-        protected string FileNamPath { set; get; }
-        protected _Status_ Status { set; get; }        
+        public string FileName { set; get; }
+        public string FileNamPath { set; get; }
+        public _Status_ Status { set; get; }        
         public virtual bool Starting() { return true; }
         public virtual bool Reading() { return true; }
         public virtual bool Parsing() { return true; }

@@ -4,25 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CLibFileInterface.File_Base
+namespace CLibFileInterface
 {
     class CDirectoryAccess : CBaseFile
     {
-        public override bool Reading()
+        public CDirectoryAccess()
         {
-            return base.Reading();
+            FileName = "Undefined";
+            FileNamPath = "undefined";
         }
-
         public override bool Parsing()
         {
             return base.Parsing();
         }
-
+        public override bool Reading()
+        {
+            return base.Reading();
+        }
         public override bool Starting()
         {
             return base.Starting();
         }
-        
         public override bool Writing()
         {
             return base.Writing();

@@ -16,8 +16,7 @@ namespace AppFecade
             CFSynchronize l_Synch = new CFSynchronize();
             l_Synch.Synchonize(l_log);
             // waiting
-            Console.ReadKey();
-            l_log.Flush();
+            Console.ReadKey();         
         }
     }
 }
